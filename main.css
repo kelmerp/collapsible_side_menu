@@ -1,19 +1,38 @@
 .container {
-  /*
-    If you have a block-level element of a certain width, margin: 0 auto;
-    will how you center it inside its parent container.
-
-    See: http://bluerobot.com/web/css/center1.html
-    
-    Don't change the container width.
-  */
   margin: 0 auto;
   padding: 0 0 0 60px;  
   width: 720px;
+  color: black;
 }
 
 .content {
   clear: both;
+}
+.sidebar-switch {
+  color: red;
+  position: fixed;
+  z-index: 1;
+  left: 50px;
+}
+
+.sidebar-switch a {
+  color: red;
+}
+
+.sidebar-switch a:link {
+  color: red;
+}
+
+.sidebar-switch a:visited {
+  color: red;
+}
+
+.sidebar-switch a:hover {
+  color: red;
+}
+
+.sidebar-switch a:active {
+  color: red;
 }
 
 .sidebar {
@@ -22,6 +41,7 @@
   position: fixed;
   background-color: #c1bfbf;
   left: 0;
+  top: 0;
 }
 
 .sidebar ul {
